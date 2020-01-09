@@ -12,7 +12,7 @@ This is a toy data set that collects attitudes on toward national spending for v
   A data frame with 2348 observations on the following 33 variables.
   \describe{
     \item{\code{year}}{a numeric constant for the GSS survey year (2018)}
-    \item{\code{id}}{a unique identifier for the survey repsondent}
+    \item{\code{id}}{a unique identifier for the survey respondent}
     \item{\code{age}}{a numeric vector for the age of the respondent (min: 18, max: 89)}
     \item{\code{sex}}{a numeric vector for the respondent's sex (1 = female, 0 = male)}
     \item{\code{educ}}{a numeric vector for the highest year of school completed (min: 0, max: 20)}
@@ -47,7 +47,7 @@ This is a toy data set that collects attitudes on toward national spending for v
   }
 }
 \details{
-For all the variables beginning with \code{nat}, note that I rescaled the original data so that -1 = respondent thinks country is spending too much on this topic, 0 = respondent thinks country is spending "about (the) right" amount, and 1 = respondent thinks country is spending too little on this topic. I do this to facilitate.
+For all the variables beginning with \code{nat}, note that I rescaled the original data so that -1 = respondent thinks country is spending too much on this topic, 0 = respondent thinks country is spending "about (the) right" amount, and 1 = respondent thinks country is spending too little on this topic. I do this to facilitate reading each \code{nat} prompt as increasing support for more spending (the extent to which increasing values means the respondent thinks the country spends too little on a given prompt). I think this is more intuitive.
 
 Also, the \code{natspac}, \code{natenvir}, \code{natheal}, \code{natcity}, \code{natcrime}, \code{natdrug}, \code{nateduc}, \code{natrace}, \code{natarms}, \code{nataid}, and \code{natfare} have "alternate" prompts in later GSS waves in which a subset of respondents get a slightly different prompt. For example, one set of respondents for \code{natcity} gets a prompt of "Solving the problems of the big cities" (the legacy prompt) whereas another set of respondents gets a prompt of "Assistance to big cities" (typically noted as "version y" in the GSS). I, perhaps problematically if I were interested in publishing analyses on these data, combine both prompts into a single variable. I don't think it's a huge problem for what I want the data to do, but FYI.
 }
