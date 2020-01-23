@@ -16,16 +16,15 @@ The justifability of taking a bribe in the U.S. from the World Values Survey. I 
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+
 }
 \source{
 World Values Survey.
 }
 \references{
-%%  ~~ possibly secondary sources and usages ~~
+
 }
 \examples{
 data(usa_justifbribe)
-## maybe str(usa_justifbribe) ; plot(usa_justifbribe) ...
 }
 \keyword{datasets}
