@@ -20,7 +20,7 @@ This is a simple data set provided by Chatterjee and Price (1977, p. 108) that s
   }
 }
 \details{
-I ganked this from the \code{robustbase} package. I just didn't want to make my students install it.
+I ganked this from the \code{robustbase} package. I just didn't want to make my students install it. Note: I'm pretty sure "NB" was suppose to be "NE" and that "DY" is supposed to be "KY". I made those changes.
 }
 \source{
 
