@@ -1,7 +1,7 @@
 Package: post8000r
 Type: Package
 Title: Materials for Foundations of Social Science Research for Public Policy
-Version: 0.1.21
+Version: 0.1.22
 Author: Steven V. Miller
 Maintainer: Steven V. Miller <steven.v.miller@gmail.com>
 Description: These are supporting materials (typically data) for POST 8000, a
